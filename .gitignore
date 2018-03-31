@@ -1,0 +1,8 @@
+*~
+#*#
+*.o
+.idea
+.project
+.cproject
+.settings
+/build
