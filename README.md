@@ -12,6 +12,7 @@ In addition to supporting fast binary classification, these sketches also suppor
 high-magnitude model weights in the original, uncompressed feature space -- this is analogous to the estimation of
 frequent items using the [Count-Sketch](https://pdfs.semanticscholar.org/7a24/af4e7cf35dbaad00cda7612b7d3629735ea7.pdf) 
 or the [Count-Min Sketch](https://pdfs.semanticscholar.org/94f8/b1efb80dd85b917a1be7c4cb2d90ef87cb54.pdf).  
+
 The WM-Sketch and AWM-Sketch can be seen as improved variants of [feature hashing](https://en.wikipedia.org/wiki/Feature_hashing),
 a commonly-used technique for handling high-dimensional feature spaces (e.g., in 
 [scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html)
